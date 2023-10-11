@@ -1,0 +1,50 @@
+@import url(https://fonts.googleapis.com/css?family=Finger+Paint);
+
+body {
+    background-color: rgb(0, 0, 0);
+    font: 1.7vw/2vh "Finger Paint";
+    color: aliceblue;
+    background-image: url(imagenes/fondo.jpg);
+    background-size: contain;
+}
+
+h1 {
+    font-size: 20px;
+    background-color: black;
+}
+
+h2 {
+    color: aliceblue;
+    background-color: gray;
+}
+
+.contacto {
+    background-color: antiquewhite;
+}
+
+.card { 
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+img {
+    width: 80%;
+}
+
+p {
+    color: black;
+    font-size: 15px;
+}
+
+form {
+    font-size: 15px;
+}
+.video-fondo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
